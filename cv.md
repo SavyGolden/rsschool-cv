@@ -11,7 +11,9 @@ Hello, my name is Savelii. I am a simple worker. Now my goal is to learn front-e
 
 ## Skills
 **HTML**: (In progress)
+
 **CSS**: (In progress)
+
 **JavaScript**: (In progress)
 
 
