@@ -7,17 +7,12 @@
 * **Discord**: SavyGolden
 
 ## About me
-
-
-## Contacts
-* **Email**: saveliigrebelkin@gmail.com
-* **GitHub**: SavyGolden
-* **Discord**: SavyGolden
-
-## About me
-
+Hello, my name is Savelii. I am a simple worker. Now my goal is to learn front-end and change my life and the lives of users of my future applications for the better.
 
 ## Skills
+**HTML**: (In progress)
+**CSS**: (In progress)
+**JavaScript**: (In progress)
 
 
 ## Code example
@@ -57,8 +52,9 @@ function disemvowel(str) {
 };
 ```
 
-## Experience
 
+## Experience
+[**Project example**](https://savygolden.github.io/rsschool-cv/)
 
 ## Education
 * Learning in RS School
