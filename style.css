@@ -1,0 +1,355 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth; 
+}
+
+.body {
+    font-family: 'Montserrat', sans-serif;
+}
+h1,
+h2,
+div,
+p,
+pre,
+code,
+blockquote {
+    padding: 0;
+    margin: 0;
+}
+.container {
+    max-width: 556px;
+    margin: 0 auto;
+}
+
+.nav-background {
+    margin: 0 auto;
+    padding: 0;
+    width: 556px;
+    height: 30px;
+    background-color: #424242;
+}
+.nav-list {
+    padding: 0;
+    padding-top: 7px;
+    display: flex;
+    flex-direction: row;
+    color: #CAC2D7;
+    list-style: none;
+}
+
+.nav-item {
+ margin-right: 2px;
+}
+
+.nav-link {
+    color: inherit;
+    transition: color 0.3s;
+    text-decoration: none;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.nav-item a:hover {
+    color: #81BA99;
+}
+
+.nav-dot {
+    padding-left: 3px;
+    padding-bottom: 1.5px;
+}
+
+.main-container {
+    display: flex;
+    margin-bottom: 17px;
+}
+
+.left-section {
+    width: 210px;
+    height: 871px;
+    margin-right: 20px;
+}
+
+.top-left {
+    width: 210px;
+    height: 46px;
+    background-color: #81BA99;
+    padding-top: 2.17px;
+    padding-left: 43px;
+}
+
+.bottom-left {
+    width: 210px;
+    height: 841.979px;
+    background-color: #CAC2D7;
+    margin-bottom: 1px;
+    padding-top: 74.98px;
+}
+
+.name-box {
+    display: flex;
+    width: 182px;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-bottom: 27px;
+    
+
+}
+
+.name {
+    padding-left: 14px;
+    text-align: center;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.28px;
+    text-transform: uppercase;
+}
+
+.background-contacts-box{
+    margin-bottom: 12px;
+    padding-top: 3px;
+    margin-left: 14px;
+    width: 182px;
+    height: 23px;
+    background-color: #424242;
+}
+
+.contacts-text {
+    color: #FFFFFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1.12px;
+    text-transform: uppercase;
+}
+
+
+.mail-icon-box {
+    padding-left: 50px;
+}
+
+.contacts-text-style {
+    margin-bottom: 12px;
+    padding-left: 8px;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+}
+
+.discord-icon-box {
+    padding-left: 50px;
+    margin-bottom: 12px;
+}
+
+.github-icon-box {
+    padding-left: 50px;
+    margin-bottom: 12px;
+}
+
+.background-skills-box {
+    margin-bottom: 13.99px;
+    margin-left: 14px;
+    padding-top: 3px;
+    width: 182px;
+    height: 23px;
+    background-color: #424242;
+}
+
+.skill-text {
+    color: #FFFFFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1.12px;
+    text-transform: uppercase;
+}
+
+.skills-box-style {
+    display: flex;
+    width: 86px;
+    height: 21px;
+    padding-left: 38px;
+    margin-bottom: 19px;
+}
+
+.skills-icon-style {
+    margin-right: 19px;
+}
+
+.skills-text-style {
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 1.12px;
+    text-transform: uppercase;
+}
+
+.background-language-box {
+    margin-bottom: 11.99px;
+    margin-left: 14px;
+    padding-top: 3px;
+    width: 182px;
+    height: 23px;
+    background-color: #424242;
+}
+
+.language-text {
+    color: #FFFFFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1.12px;
+    text-transform: uppercase;
+}
+
+.language-box {
+    display: flex;
+    margin-bottom: 19px;
+    padding-left: 38px;
+    width: 180px;
+    height: 21px;
+}
+
+.language-icon {
+    margin-right: 17px;
+}
+
+.english-text {
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 1.12px;
+    text-transform: uppercase;
+}
+
+.right-section {
+    width: 325px;
+    height: 857px;
+}
+
+.about-me-title-box {
+    display: flex;
+    padding-left: 104px;
+}
+
+.title-style {
+    color: #424242;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 1.28px;
+    text-transform: uppercase;
+    padding: 0 10px;
+    margin-bottom: 2px;
+}
+
+.section-line {
+ margin-bottom: 4px;
+}
+
+.about-me-text-box {
+    width: 325px;
+    height: 76px;
+    margin-bottom: 4px;
+}
+.about-me-text {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.code-example {
+    width: 325px;
+    height: 370px;
+}
+
+.code-example-title-box {
+    display: flex;
+    padding-left: 98px;
+}
+
+.code-example-text-box {
+    display: flex;
+    width: 325px;
+    flex-direction: column;
+}
+
+.code-example-text-{
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 0px;
+    
+}
+
+.code-example-code {
+    display: block;
+    background-color: #d3d3d3
+}
+
+.experience-education-title-box {
+    display: flex;
+    padding-left: 26px;
+    margin-bottom: 15px;
+}
+
+.experience-education-text-box{
+    width: 595px;
+    height: 963px;
+    padding-left: 107px;
+}
+
+.experience-education-text {
+    color: inherit;
+    transition: color 0.7s;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1.12px;
+    text-transform: uppercase;
+}
+
+.experience-education-text-box a:hover {
+    color: #81BA99;
+}
+
+.footer {
+    display: flex;
+    width: 555px;
+    height: 42px;
+    background-color: #424242;
+}
+
+.rsschool-logo-box {
+    padding-left: 60px;
+    margin-right: 87px;
+}
+
+.year {
+    color: #CAC2D7;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 1.28px;
+    text-transform: uppercase;
+    margin-right: 156px;
+    padding-top: 11px;
+}

@@ -64,5 +64,5 @@ function disemvowel(str) {
     * **CSS**: (In progress)
     * **JavaScript**: (In progress)
 
-## English
-**A1**
+## Language
+* **English**: **A1**
